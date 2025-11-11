@@ -37,7 +37,7 @@ export default function Contact() {
     {
       icon: MapPin,
       title: 'Visit Us',
-      content: 'MG Road, Connaught Place\nNew Delhi, Delhi 110001', // Updated location
+      content: 'indore',  
     },
     {
       icon: Phone,
@@ -47,7 +47,7 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email Us',
-      content: 'shriram.tiwari@homeaura.com\nsupport@homeaura.com', // Updated email
+      content: 'shriramt.124@gmail.com', // Updated email
     },
     {
       icon: Clock,
