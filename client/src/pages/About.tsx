@@ -108,7 +108,7 @@ export default function About() {
             Experience the quality and craftsmanship of HomeAura furniture in person. Our design consultants are ready to help you find the perfect pieces for your home.
           </p>
           <p className="text-muted-foreground">
-            <strong>Location:</strong> 123 Design District, San Francisco, CA 94103<br />
+            <strong>Location:</strong> INDORE<br />
             <strong>Hours:</strong> Monday - Saturday, 10am - 6pm
           </p>
         </div>
