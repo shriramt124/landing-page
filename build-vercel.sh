@@ -1,6 +1,5 @@
 
 #!/bin/bash
-# Build script for Vercel deployment
-cd client
+# Optional helper script for local Vercel-style builds
 npm install
 npm run build
