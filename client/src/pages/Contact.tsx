@@ -170,7 +170,7 @@ export default function Contact() {
 
         <div className="bg-card rounded-lg overflow-hidden h-96">
           <div className="w-full h-full bg-muted flex items-center justify-center">
-            <p className="text-muted-foreground">Map placeholder - MG Road, Connaught Place, New Delhi, Delhi 110001</p> {/* Updated map placeholder */}
+            <p className="text-muted-foreground">Indore</p> {/* Updated map placeholder */}
           </div>
         </div>
       </div>
