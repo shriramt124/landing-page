@@ -17,9 +17,9 @@ export default function Contact() {
   const form = useForm<ContactFormData>({
     resolver: zodResolver(contactFormSchema),
     defaultValues: {
-      name: '',
+      name: 'Shriram Tiwari', // Updated name
       email: '',
-      phone: '',
+      phone: '123456789', // Updated phone number
       message: '',
     },
   });
@@ -37,17 +37,17 @@ export default function Contact() {
     {
       icon: MapPin,
       title: 'Visit Us',
-      content: '123 Design District\nSan Francisco, CA 94103',
+      content: 'MG Road, Connaught Place\nNew Delhi, Delhi 110001', // Updated location
     },
     {
       icon: Phone,
       title: 'Call Us',
-      content: '+1 (555) 123-4567\nMon-Sat, 10am-6pm',
+      content: '+91 123456789\nMon-Sat, 10am-6pm', // Updated phone number and added country code
     },
     {
       icon: Mail,
       title: 'Email Us',
-      content: 'hello@homeaura.com\ninfo@homeaura.com',
+      content: 'shriram.tiwari@homeaura.com\nsupport@homeaura.com', // Updated email
     },
     {
       icon: Clock,
@@ -170,7 +170,7 @@ export default function Contact() {
 
         <div className="bg-card rounded-lg overflow-hidden h-96">
           <div className="w-full h-full bg-muted flex items-center justify-center">
-            <p className="text-muted-foreground">Map placeholder - 123 Design District, San Francisco, CA</p>
+            <p className="text-muted-foreground">Map placeholder - MG Road, Connaught Place, New Delhi, Delhi 110001</p> {/* Updated map placeholder */}
           </div>
         </div>
       </div>
