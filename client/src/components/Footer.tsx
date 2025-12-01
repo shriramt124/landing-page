@@ -58,10 +58,12 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold mb-4">Customer Service</h4>
             <ul className="space-y-2">
-              <li className="text-sm text-muted-foreground">FAQ</li>
-              <li className="text-sm text-muted-foreground">Shipping</li>
-              <li className="text-sm text-muted-foreground">Returns</li>
-              <li className="text-sm text-muted-foreground">Care Guide</li>
+              <li className="text-sm text-muted-foreground hover:text-primary transition-colors cursor-pointer">FAQ</li>
+              <li className="text-sm text-muted-foreground hover:text-primary transition-colors cursor-pointer">Shipping</li>
+              <Link href="/refund-policy">
+                <li className="text-sm text-muted-foreground hover:text-primary transition-colors cursor-pointer">Returns & Refunds</li>
+              </Link>
+              <li className="text-sm text-muted-foreground hover:text-primary transition-colors cursor-pointer">Care Guide</li>
             </ul>
           </div>
 
@@ -90,9 +92,15 @@ export default function Footer() {
               © 2024 HomeAura. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm text-muted-foreground">
-              <span className="hover:text-primary transition-colors cursor-pointer">Privacy Policy</span>
-              <span className="hover:text-primary transition-colors cursor-pointer">Terms of Service</span>
-              <span className="hover:text-primary transition-colors cursor-pointer">Accessibility</span>
+              <Link href="/privacy-policy">
+                <span className="hover:text-primary transition-colors cursor-pointer">Privacy Policy</span>
+              </Link>
+              <Link href="/terms-of-service">
+                <span className="hover:text-primary transition-colors cursor-pointer">Terms of Service</span>
+              </Link>
+              <Link href="/cookie-policy">
+                <span className="hover:text-primary transition-colors cursor-pointer">Cookie Policy</span>
+              </Link>
             </div>
           </div>
         </div>
